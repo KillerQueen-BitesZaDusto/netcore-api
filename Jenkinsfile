@@ -42,7 +42,7 @@ pipeline {
             }
             steps {
                 sh "echo restart service"
-                //sh "sudo systemctl restart multibranch.service"
+                sh "sudo systemctl restart netcore-api.service"
             }
         }
     }
